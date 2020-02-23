@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assemblies timestamp="02/23/2020 21:28:05">
+  <assembly name="D:\Visual Studio Projects\XunitPractice\XunitPractice\XunitPractice\bin\Debug\XunitPractice.dll" run-date="2020-02-23" run-time="21:28:05" total="6" passed="5" failed="1" skipped="0" time="0.099" errors="0">
+    <errors />
+    <collection total="6" passed="5" failed="1" skipped="0" name="Test collection for XunitPractice.TestCaseSample" time="0.099">
+      <test name="XunitPractice.TestCaseSample.TestNumberIsOdd(number: 5)" type="XunitPractice.TestCaseSample" method="TestNumberIsOdd" time="0.0790000" result="Pass">
+        <traits>
+          <trait name="Sample" value="TEST_1234" />
+        </traits>
+      </test>
+      <test name="XunitPractice.TestCaseSample.TestNumberIsOdd(number: 3)" type="XunitPractice.TestCaseSample" method="TestNumberIsOdd" time="0.0010000" result="Pass">
+        <traits>
+          <trait name="Sample" value="TEST_1234" />
+        </traits>
+      </test>
+      <test name="XunitPractice.TestCaseSample.TestNumberIsOdd(number: 7)" type="XunitPractice.TestCaseSample" method="TestNumberIsOdd" time="0.0010000" result="Pass">
+        <traits>
+          <trait name="Sample" value="TEST_1234" />
+        </traits>
+      </test>
+      <test name="XunitPractice.TestCaseSample.TestSum(num1: 7, num2: 8, sum: 15)" type="XunitPractice.TestCaseSample" method="TestSum" time="0.0060000" result="Pass">
+        <traits>
+          <trait name="Sample" value="TEST_5678" />
+        </traits>
+      </test>
+      <test name="XunitPractice.TestCaseSample.TestSum(num1: 1, num2: 2, sum: 3)" type="XunitPractice.TestCaseSample" method="TestSum" time="0.0010000" result="Pass">
+        <traits>
+          <trait name="Sample" value="TEST_5678" />
+        </traits>
+      </test>
+      <test name="XunitPractice.TestCaseSample.TestSum(num1: 4, num2: 5, sum: 6)" type="XunitPractice.TestCaseSample" method="TestSum" time="0.0110000" result="Fail">
+        <failure>
+          <message>Assert.Equal() Failure
+Expected: 9
+Actual:   6</message>
+          <stack-trace>   at XunitPractice.TestCaseSample.TestSum(Int32 num1, Int32 num2, Int32 sum) in D:\Visual Studio Projects\XunitPractice\XunitPractice\XunitPractice\TestCaseSample.cs:line 37</stack-trace>
+        </failure>
+        <traits>
+          <trait name="Sample" value="TEST_5678" />
+        </traits>
+      </test>
+    </collection>
+  </assembly>
+</assemblies>
